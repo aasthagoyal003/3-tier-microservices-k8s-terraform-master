@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+# Ignore specific Terraform JSON file
+terraform/devops-demo-440509-98a99ba0bd23.json
+
+# Ignore the entire .terraform directory
+terraform/.terraform/
